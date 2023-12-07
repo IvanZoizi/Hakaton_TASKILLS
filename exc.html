@@ -22,7 +22,32 @@
     <div class="content">
 
         <header class="hero-section">
-            <img data-speed=".6" class="hero2" src="img/hero2.jpg" alt="Alt" >
+
+            <button onclick="goToArch()" class="btn">Достопримечательности</button>
+
+            <script>
+                function goToArch() {
+                    window.location.href = 'index.html';
+                }
+            </script>
+
+            <button onclick="goToExc()" class="btn">Экскурсии</button>
+
+            <script>
+                function goToExc() {
+                    window.location.href = 'exc.html';
+                }
+            </script>
+
+            <button onclick="goToJoy()" class="btn">Активный отдых</button>
+
+            <script>
+                function goToJoy() {
+                    window.location.href = 'joy.html';
+                }
+            </script>
+
+            <img data-speed=".6" class="hero" src="img/hero2.jpg" alt="Alt" >
             <div class="container">
                 <div data-speed=".75" class="main-header">
                     <h1 class="main-title">Туры и экскурсии</h1>
